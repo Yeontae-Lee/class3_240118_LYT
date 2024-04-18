@@ -33,7 +33,21 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
+		// 디스패치 방식 포워딩
 		return "home";
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
